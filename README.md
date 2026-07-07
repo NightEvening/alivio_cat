@@ -1,3 +1,3 @@
-# ALIVIO LANDING
+# ALIVIO CAT
 
-### Creating base for second cat website
+### Creating cat website
