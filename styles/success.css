@@ -63,6 +63,7 @@
     fill: var(--co-white);
     top: 50%;
     left: 50%;
+    user-select: none;
     translate: -50% -50%;
     transition: var(--transition);
 }
