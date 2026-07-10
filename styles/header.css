@@ -74,3 +74,22 @@
         display: none;
     }
 }
+
+@media (max-width: 480px) {
+    .header__wrapper {
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .header__nav {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .header__actions .btn {
+        width: 90px;
+    }
+}
