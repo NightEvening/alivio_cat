@@ -11,7 +11,7 @@
     <title>Alivio</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header-id">
         <div class="container">
             <div class="header__wrapper">
                 <svg class="logo">
@@ -20,16 +20,18 @@
 
                 <nav class="header__nav">
                     <ul class="header__nav-list">
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Why Alivio</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Solutions</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Community</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Pricing</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="#hero-id">Why Alivio</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="#about-id">Solutions</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="#success-id">Community</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="#product-id">Pricing</a></li>
                     </ul>
                 </nav>
 
                 <div class="header__actions">
                     <button type="button" class="btn btn--signin">Sign In</button>
-                    <button type="button" class="btn">Start Trial</button>
+                    <a target="_blank" href="https://github.com/NightEvening">
+                        <button type="button" class="btn">Start Trial</button>
+                    </a>
                 </div>
             
             </div>
@@ -37,18 +39,20 @@
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="hero-id">
             <div class="container">
                 <div class="hero__content">
                     <h1 class="hero__title">Be aware, Manage well.</h1>
                     <p class="hero__desc">Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
-                    <button type="button" class="btn">Find Your Way</button>
+                    <a target="_blank" href="https://youtu.be/sd-r7QqM5Uk?si=mpo7whUBp9EQKhQh">
+                        <button type="button" class="btn">Find Your Way</button>
+                    </a>
                     
                 </div>
             </div>
         </section>
 
-        <section class="about">
+        <section class="about" id="about-id">
             <div class="container">
                 <!-- <h3 class="about__subtitle">How it works</h3> -->
 
@@ -78,13 +82,15 @@
             </div>
         </section>
 
-        <section class="success">
+        <section class="success" id="success-id">
             <div class="container">
                 <div class="success__wraper">
                     <div class="success__content">
                         <h3 class="success__title">Let's hear about Kayla's success story</h3>
                         <p class="success__desc">See how well Alivio works in a real customer’s life. </p>
-                        <button type="button" class="btn success__btn">Let’s get started</button>
+                        <a target="_blank" href="https://youtu.be/rIn8gkb14xY?si=zpyGxu_kyvRIG6CE">
+                            <button type="button" class="btn success__btn">Let’s get started</button>
+                        </a>
                     </div>
                     
                     <div class="success__content-video">
@@ -97,9 +103,8 @@
                 </div>
             </div>
         </section>
-    </main>
 
-    <section class="product">
+    <section class="product" id="product-id">
         <div class="container">
             <div class="product__wrapper">
                 <div class="product__preview">
@@ -110,7 +115,9 @@
                     <h5 class="product__info">Our product</h5>
                     <h4 class="product__title">You tell us your stress, We make your diary</h4>
                     <p class="product__desc">Everyone experiences it, and in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
-                    <button class="btn">Find Your Way</button>
+                    <a target="_blank" href="https://www.youtube.com/watch?v=hUKe6gihtx0&list=PLh_07qLgQJxuXgJF0-f9TTwfmqLKx2O4Z&index=11">
+                        <button  class="btn">Find Your Way</button>
+                    </a>
                 </div>
 
                 <figure class="info-card">
@@ -131,5 +138,25 @@
             </div>
         </div>
     </section>
+    </main>
+
+    <footer class="pricing" id="footer-id">
+        <div class="container">
+            <div class="pricing__content">
+                <svg class="logo logo-footer">
+                    <use href="assets/sprites.svg#logo-icon"></use>
+                </svg>
+                
+                <nav class="pricing__nav">
+                    <ul class="pricing__nav-list">
+                        <li class="pricing__nav-item"><a class="pricing__nav-link" href="#hero-id">Why Alivio</a></li>
+                        <li class="pricing__nav-item"><a class="pricing__nav-link" href="#about-id">Solutions</a></li>
+                        <li class="pricing__nav-item"><a class="pricing__nav-link" href="#success-id">Community</a></li>
+                        <li class="pricing__nav-item"><a class="pricing__nav-link" href="#product-id">Pricing</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

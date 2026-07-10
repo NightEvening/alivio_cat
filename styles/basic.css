@@ -8,6 +8,10 @@ body {
     background-color: var(--co-white);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -33,6 +37,7 @@ h1, h2, h3, h4, h5, h6, p, figure, blockquote {
     width: 81px;
     height: 24px;
     flex-shrink: 0;
+    fill: var(--co-green);
 }
 
 .btn {
